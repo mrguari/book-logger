@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BookLogger - New Entry</title>
+    <link rel="stylesheet" type="text/css" href="RLB.css">
+    <link href="https://fonts.googleapis.com/css?family=Itim|Raleway|Slabo+27px" rel="stylesheet">
+  </head>
+  <body>
+  	<div class="EntryBox">
+  		<h3 id="logTitle">New Log Entry</h3>
+  		<select name="title" class="DropDown">
+  			<option value="PlaceHolder" selected>Select Previous Literary Work</option>
+  			<option value="Book1">Charlotte's Web</option>
+  			<option value="Book2">James &amp The Giant Peach</option>
+  			<option value="Book3">The Hobbit</option>
+  		</select>
+
+  		<br/>
+  		<button class="accordion">How long did you read?</button>
+  		<div class="expandable">
+	  		Time Start: <input type="text" name="hour-start" size="2" maxlength="2"/> : <input type="text" name="minute-start" size="2" maxlength="2"/> 
+	  		<select name="am-pm"><option value="am">AM<option value="pm">PM</select>
+	  		<br/>
+	  		Time Stop: <input type="text" name="hour-stop" size="2" maxlength="2"/> : <input type="text" name="minute-stop" size="2" maxlength="2"/>
+	  		<select name="am-pm"><option value="am">AM<option value="pm">PM</select>
+	  		<br/>
+	  		Total Time: --
+  		</div>
+
+ 		<button class="accordion">How many pages did you read?</button>
+ 		<div class ="expandable">
+	  		Page Start: <input type="text" name="page-start" />
+	  		<br/>
+	  		Page Stop: <input type="text" name="page-stop" /> 
+  		</div>
+  		
+  		<button class="accordion">Rate this entry</button>
+	  		<div class ="expandable">
+	  			xxx
+	  		</div>
+
+  	</div>
+
+<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+<script src="RLB.js"></script>
+
+
+  </body>
+</html>
