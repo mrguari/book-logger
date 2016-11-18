@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#logTitle {
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	padding-left: 15px;
+}
+
+.EntryBox {
+	 background-color: #DBE9EE;
+ 	 padding: 40px;
+  	position: fixed;
+ 	 left: 0;
+ 	 top: 80px;
+ 	 text-align: left;
+ 	 width: 100%;
+ 	 line-height: 2em;
+ 	 font-family: 'Raleway', sans-serif;
+ 	 font-size: 14px;
+}
+
+.DropDown {
+	font-family: 'Slabo 27px', serif;
+	padding: 20px;
+}
+
+.accordion{
+	background-color: #DBE9EF;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: auto;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    display: block;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #eee;
+}
+
+div.expandable {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    width: 50%;
+}
+
+div.expandable.show {
+    display: block;
+}
